@@ -9,15 +9,18 @@ CREATE TABLE herois(
     poder VARCHAR(100) NOT NULL,
     nivel INTEGER NOT NULL,
     hp INTEGER NOT NULL
-)
+);
 
 
-CREATE TABLE batalhas(
+CREATE TABLE batalha(
     id SERIAL PRIMARY KEY,
+    heroi1_id INTEGER ,
+    heroi2_id INTEGER ,
+    vencedor_id INTEGER,
    FOREIGN KEY (heroi1_id) REFERENCES herois(id), 
    FOREIGN KEY (heroi2_id) REFERENCES herois(id),
    FOREIGN KEY(vencedor_id) REFERENCES herois(id)
-)
+);
 
 INSERT INTO herois (nome, poder, nivel, hp) VALUES ('Superman', 'Superforça', 20, 1000),
     ('Homem de Ferro', 'Armadura de alta tecnologia', 18, 200),
@@ -48,7 +51,7 @@ INSERT INTO herois (nome, poder, nivel, hp) VALUES ('Superman', 'Superforça', 2
     ('Asa Noturna', 'acrobacias', 17, 180),
     ('Ravena', 'Manipulação de magia negra', 17, 190),
     ('Estelar', 'manipulação de energia', 18, 200),
-    ('Robin', 'Habilidades acrobáticas', 16, 170),  -- Vários personagens, portanto uma descrição geral
+    ('Robin', 'Habilidades acrobáticas', 16, 170),  
     ('Batwoman', 'Habilidades de combate', 16, 170),
     ('Hera Venenosa', 'Manipulação de plantas', 17, 180),
     ('Besouro Azul', 'Armadura de alta tecnologia', 16, 170),
@@ -58,7 +61,7 @@ INSERT INTO herois (nome, poder, nivel, hp) VALUES ('Superman', 'Superforça', 2
     ('Question', 'Investigação', 16, 160),
     ('Atom', 'Encolhimento, tecnologia', 17, 170),
     ('Espectro', 'Poderes místicos', 18, 190),
-    ('Mera', 'manipulação hidrocinética', 17, 180) 
+    ('Mera', 'manipulação hidrocinética', 17, 180), 
     ('Vespa', 'Habilidade de encolhimento', 16, 160),
     ('Demolidor', 'Sentidos aguçados', 16, 170),
     ('Jessica Jones', 'Força sobre-humana', 16, 180),

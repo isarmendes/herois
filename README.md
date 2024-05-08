@@ -12,7 +12,8 @@ onde personagens individuais interagem e enfrentam ameaças em conjunto. Ao long
 jogos e uma variedade de produtos relacionados.
 
 DC Comics:
-![1310578](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwall.alphacoders.com%2Fbig.php%3Fi%3D1310578&psig=AOvVaw1ZdqBibyamkqfo8IgXAyUF&ust=1715262585577000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNDFvrWZ_oUDFQAAAAAdAAAAABAE)
+![download](https://github.com/isarmendes/herois/assets/123502060/93a0f48d-33f0-4857-89b2-7f681d2e3297)
+
 
 A DC Comics, abreviação de Detective Comics, é outra grande editora de quadrinhos, rivalizando com a Marvel em popularidade e influência. Fundada em 1934,
 a DC é conhecida por criar super-heróis lendários como Superman, Batman, Mulher-Maravilha, Flash e Lanterna Verde. Assim como a Marvel, 

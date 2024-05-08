@@ -22,6 +22,8 @@ CREATE TABLE batalha(
    FOREIGN KEY(vencedor_id) REFERENCES herois(id)
 );
 
+
+
 INSERT INTO herois (nome, poder, nivel, hp) VALUES ('Superman', 'Superforça', 20, 1000),
     ('Homem de Ferro', 'Armadura de alta tecnologia', 18, 200),
     ('Batman', 'Habilidades de combate excepcionais', 17, 180),

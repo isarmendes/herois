@@ -12,7 +12,8 @@ onde personagens individuais interagem e enfrentam ameaças em conjunto. Ao long
 jogos e uma variedade de produtos relacionados.
 
 DC Comics:
-![download](https://github.com/isarmendes/herois/assets/123502060/93a0f48d-33f0-4857-89b2-7f681d2e3297)
+
+![download](https://github.com/isarmendes/herois/assets/123502060/60ddbfc1-aa81-46ce-82ee-77462fae0ca9)
 
 
 A DC Comics, abreviação de Detective Comics, é outra grande editora de quadrinhos, rivalizando com a Marvel em popularidade e influência. Fundada em 1934,
